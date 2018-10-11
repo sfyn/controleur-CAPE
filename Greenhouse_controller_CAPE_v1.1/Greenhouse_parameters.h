@@ -50,7 +50,7 @@ EXAMPLE 1 (timepoint relative to sunrise):
 #define TP1_MN_MOD      -30
 #define TP1_HEAT        18
 #define TP1_COOL        20
-#define TP1_RAMP        15
+#define TP1_RAMP        0
 Timepoint occur 30 minuts before sunrise, heating temperature reference is set to 18C, cooling temperature reference is set to 20C.
 
 EXAMPLE 2 (timepoint relative to sunrise):
@@ -60,7 +60,7 @@ EXAMPLE 2 (timepoint relative to sunrise):
 #define TP1_MN_MOD      30
 #define TP1_HEAT        20
 #define TP1_COOL        25
-#define TP1_RAMP        15
+#define TP1_RAMP        0
 Timepoint occur at 12h30, heating temperature reference is set to 20C, cooling temperature reference is set to 25C.
 
 ********************Rollups parameters***************
@@ -214,7 +214,7 @@ TIMEPOINTS PARAMETERS - SYNTAX RULES:
 #define TP1_COOL_SUN        20
 #define TP1_HEAT_CLOUD      16
 #define TP1_COOL_CLOUD      18
-#define TP1_RAMP            15
+#define TP1_RAMP            0
 //*******************************************************Timepoint 2
 #define TP2_TYPE            CLOCK
 #define TP2_HOUR            10
@@ -223,7 +223,7 @@ TIMEPOINTS PARAMETERS - SYNTAX RULES:
 #define TP2_COOL_SUN        24
 #define TP2_HEAT_CLOUD      16
 #define TP2_COOL_CLOUD      18
-#define TP2_RAMP            15
+#define TP2_RAMP            0
 //*******************************************************Timepoint 3
 #define TP3_TYPE            SS
 #define TP3_HOUR            -1
@@ -232,7 +232,7 @@ TIMEPOINTS PARAMETERS - SYNTAX RULES:
 #define TP3_COOL_SUN        22
 #define TP3_HEAT_CLOUD      16
 #define TP3_COOL_CLOUD      18
-#define TP3_RAMP            5
+#define TP3_RAMP            0
 //*******************************************************Timepoint 4
 #define TP4_TYPE            SS
 #define TP4_HOUR            0
@@ -241,7 +241,7 @@ TIMEPOINTS PARAMETERS - SYNTAX RULES:
 #define TP4_COOL_SUN        22
 #define TP4_HEAT_CLOUD      16
 #define TP4_COOL_CLOUD      18
-#define TP4_RAMP            30
+#define TP4_RAMP            0
 //*******************************************************Timepoint 5
 #define TP5_TYPE            SS
 #define TP5_HOUR            0
@@ -250,7 +250,7 @@ TIMEPOINTS PARAMETERS - SYNTAX RULES:
 #define TP5_COOL_SUN        20
 #define TP5_HEAT_CLOUD      16
 #define TP5_COOL_CLOUD      18
-#define TP5_RAMP            30
+#define TP5_RAMP            0
 //*******************************************************************
 /*
 ROLLUP PARAMETERS - SYNTAX RULES :
